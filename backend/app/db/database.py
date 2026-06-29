@@ -1,7 +1,11 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 from app.config import settings
+
+# Ensure data directory exists (needed for SQLite + Chroma on fresh deploys)
+os.makedirs("./data", exist_ok=True)
 
 connect_args = {"check_same_thread": False} if "sqlite" in settings.database_url else {}
 
