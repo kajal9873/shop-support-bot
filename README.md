@@ -4,6 +4,13 @@ A bilingual (Hindi-English code-mixed) RAG-based customer support chatbot
 for small/local retail shops — handles order status, FAQs, and product 
 queries in natural Hinglish input.
 
+**Live Demo:** [https://shop-wave-gamma.vercel.app/] 
+
+<img width="1918" height="1087" alt="image" src="https://github.com/user-attachments/assets/32be3690-85f1-432a-81de-f00ad61e7a70" />
+
+**Backend API:** [https://shopwave-backend-wdbs.onrender.com]
+
+
 ## 🎯 Research Focus
 
 This project doubles as a research study on **NLU robustness for 
